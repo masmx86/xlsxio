@@ -1,5 +1,9 @@
 0.2.36
 
+2025-09-12
+
+ * fix missing mz_compat.h when building against recent minizip-ng
+
 2025-01-07
 
  * fixes by Tattersalt-Kanzaki to catch failed realloc() calls (#138)

@@ -13,7 +13,7 @@
 
 #if defined(USE_MINIZIP) || defined(USE_MINIZIP_NG)
 #  ifdef USE_MINIZIP_NG
-#    include <mz_compat.h>
+#    include <minizip-ng/zip.h>
 #  else
 #    include <minizip/zip.h>
 #  endif
